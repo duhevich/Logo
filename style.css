@@ -1,0 +1,375 @@
+header .wrapper {
+	display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 41px auto;
+
+}
+
+.wrapper {
+	max-width: 900px;
+	width: 100%;
+	
+}
+
+h1 {
+	font-size: 25px;
+	font-family: Roboto;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	display: inline;
+}
+a {
+	font-family: Roboto;
+	font-size: 12px;
+	text-decoration: none;
+	color: #a7a7a7;
+	text-transform: uppercase;
+}
+.first-screen {
+	width: 100%;
+	height: 500px;
+	background-image: url(img/Layer_5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.first-screen h2 {
+	text-transform: uppercase;
+	max-width: 415px;
+	width: 100%;
+	padding-top: 172px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 50px;
+	font-size: 40px;
+	font-family: Roboto;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+.first-screen p {
+	font-family: 'Geo', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	line-height: 30px;
+	color: #5a5a5a;
+	margin-bottom: 51px;
+}
+.back-circle {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(255,255,255,.5);
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.front-circle {
+	width: 50px;
+	height: 50px;
+	background-color: rgb(255,255,255);
+	border-radius: 50%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 2px 4px rgba(0, 1, 1, .2)
+}
+.front-circle i {
+	padding-top: 2px;
+	animation-name: arrow;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes arrow {
+ 	0% {
+ 		padding-top: 2px;
+ 		opacity: 1;
+ 	}
+ 	50% {
+ 		padding-top: 15px;
+ 		opacity: 0.5;
+ 	}
+ 	100% {
+ 		padding-top: 2px;
+ 		opacity: 0;
+ 	}
+ } 
+.border {
+	width: 240px;
+	height: 3px;
+	background-color: #000;
+	margin-bottom: 32px;
+	margin: 0 auto;
+
+}
+.second-screen .wrapper {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.second-screen .wrapper h2 {
+	font-family: Roboto;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	line-height: 25px;
+	color:#303030;
+}
+.second-screen p {
+	max-width: 534px;
+	width: 100%;
+	color: #5a5a5a;
+	font-family: Roboto;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom: 51px;
+}
+.galery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.galery img {
+	margin-bottom: 70px;
+}
+.third-screen {
+background-color: #f3f3f3;
+border: 1px solid rgba(0, 1, 1, .1)
+}
+
+.third-screen .wrapper {
+	margin: 0 auto;
+}
+.third-screen h2 {
+	font-family: Roboto;
+	text-transform: uppercase;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+	line-height: 50px;
+	color:#303030;
+	margin-top: 48px;
+
+}
+.third-screen p {
+	max-width: 536px;
+	width: 100%;
+	color: #5a5a5a;
+	font-family: "Proxima Nova";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+	margin-bottom: 42px;
+	text-align: center;
+	margin-top: 32px;
+	margin-bottom:  51px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.team-gallery {
+	display: flex;
+	justify-content: space-between;
+}
+
+.person {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 210px;
+	height: 210px;
+	background-color: #fff;
+}
+
+.person img {
+	max-width: 80px;
+	width: 100%
+}
+
+.person span {
+	color: #303030;
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+
+.descr {
+	color: #303030;
+	font-family: 'Geo';
+	font-size: 12px;
+	line-height: 40px;
+}
+
+.team-icons i {
+	margin-right: 20px;
+}
+
+.team-icons i:last-child {
+	margin-right: 0;
+}
+
+.fourth-screen .wrapper {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding-bottom: 73px;
+}
+
+.fourth-screen h2 {
+	text-align: center;
+	color: #303030;
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.map {
+	max-width: 320px;
+	width: 100%;
+}
+
+.map iframe {
+	height: 300px;
+}
+
+.feedback {
+	max-width: 540px;
+	width: 100%; 
+}
+
+textarea {
+	display: inline-block;
+	height: 235px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	background-color: #f2f2f2;
+	margin-bottom: 25px;
+}
+
+input {
+	max-width: 312px;
+	width: 100%;
+	height: 60px;
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	background-color: #f3f3f3;
+}
+
+button {
+	max-width: 205px;
+	width: 100%;
+	height: 60px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+	border: 2px solid #ffffff;
+	background-color: #6995a9;
+	color: #fff;
+}
+
+footer {
+	height: 40px;
+	background-color: #212121;
+}
+
+footer .wrapper {
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+footer div {
+	font-family: 'Roboto';
+	color: #6e6e6e;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25px;
+}
+
+@media (max-width: 320px) {
+	header .wrapper {
+		display: block;
+		margin: 20px auto;
+	}
+
+	.wrapper h1 {
+		margin-top: 0;
+		text-align: center;
+		font-size: 50px;
+		margin-bottom: 15px;
+	}
+
+	ul {
+		justify-content: space-around;
+		margin: 0 auto;
+		max-width: 333px;
+	}
+
+	a {
+		font-size: 18px;
+	}
+
+	.first-screen {
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.first-screen p {
+		font-size: 22px;
+	}
+
+	.first-screen h2 {
+		padding-top: 20px;
+	}
+
+	.second-screen p {
+		margin: 30px auto;
+	}
+
+	.third-screen {
+		padding-bottom: 25px;
+	}
+
+	.galery {
+		justify-content: center;
+	}
+
+	.galery img {
+		margin-bottom: 25px;
+	}
+
+	.team-gallery {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.person {
+		
+	}
+}
